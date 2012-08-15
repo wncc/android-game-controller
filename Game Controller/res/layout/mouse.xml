@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="86"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_weight="80">
+
+                <Button
+                    android:id="@+id/lclick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:onClick="onClick"
+                    android:text="@string/lclick" />
+
+                <Button
+                    android:id="@+id/rclick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:onClick="onClick"
+                    android:text="@string/rclick" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/drag"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:text="Drag" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" android:layout_weight="14">
+
+            <Button
+                android:id="@+id/up"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="^" android:layout_weight="50" android:onClick="onClick"/>
+
+            <Button
+                android:id="@+id/down"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="v" android:layout_weight="50" android:onClick="onClick"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

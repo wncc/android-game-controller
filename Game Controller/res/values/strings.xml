@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GameControllerActivity!</string>
+    <string name="app_name">Game Controller</string>
+    <string name="connect">Connect</string>
+    <string name="ip">IP Address : </string>
+    <string name="port">Port : </string>
+    <string name="send">Send</string>
+    <string name="lclick">Left Click</string>
+    <string name="rclick">Right Click</string>
+    <string name="drag">Drag</string>
+
+</resources>
